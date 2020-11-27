@@ -19,6 +19,7 @@ jobs:
             pip install flake8 pytest
             pip install selenium
             pip install robotframework
+            pip install robotframework-selenium2library
         - name: Execute tests
           uses: joonvena/robotframework-docker-action@v0.1
           env:
