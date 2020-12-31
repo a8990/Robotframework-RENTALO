@@ -21,7 +21,7 @@ jobs:
             pip install robotframework
             pip install robotframework-selenium2library
         - name: Execute tests
-          uses: acontre200/robotframework:version1
+          uses: acontre200/robotframework
           #joonvena/robotframework-docker-action@v0.1
           env:
             BROWSER: chrome
